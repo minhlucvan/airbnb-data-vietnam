@@ -38,4 +38,7 @@ streamlit run app.py
 The data used in this project consists of Airbnb listings and calendar availability, structured by state and city in CSV format. GeoJSON files are used for mapping neighborhoods. Some data files may be missing as this repo is not git lfs, will update them later.
 
 ## Usage
-Once the application is running, navigate through the sidebar to select different filters and view the visualizations that appear based on your selections. For neighborhood users may click directly on choropleth map to select paritcular neighborhood.
+Once the application is running, navigate through the sidebar to select different filters and view the visualizations that appear based on your selections. For neighborhood users may click directly on choropleth map to select particular neighborhood.
+
+## Visualization Demo
+[![Watch the demo video](https://img.youtube.com/vi/6SHrf736v80/0.jpg)](https://www.youtube.com/watch?v=6SHrf736v80)
