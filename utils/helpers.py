@@ -365,6 +365,18 @@ def create_choropleth_map_avg(neighborhoods_geojson, data, metric, city, city_ce
         labels={'price': 'Price'}
     )   
     
+    fig.update_layout(
+        margin={"r":0, "t":0, "l":0, "b":0},
+        legend=dict(
+            title='Place Types',
+            orientation='v',
+            yanchor="top",
+            y=1.0,
+            xanchor="left",
+            x=0.01  
+        )
+    )
+        
     fig.update_layout(geo_bgcolor='rgba(0,0,0,0)')
     
     return fig
